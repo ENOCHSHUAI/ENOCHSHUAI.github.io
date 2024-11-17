@@ -529,11 +529,20 @@
 </script>
 <div id="particles-js"></div>
 
-<script src=https://ENOCHSHAUI.github.io/background/particles.min.js></script>
 <script>
-  particlesJS.load('particles-js', "https://ENOCHSHAUI.github.io/background/particlesjs-config.json", function() {
-    console.log('particles.js loaded - callback');
-  });
+  
+  const particlesJsPath = "https:\/\/ENOCHSHAUI.github.io\/background\/particles.min.js";
+  const particlesConfigPath = "https:\/\/ENOCHSHAUI.github.io\/background\/particlesjs-config.json";
+
+  
+  const script = document.createElement("script");
+  script.src = particlesJsPath;
+  script.onload = function () {
+    particlesJS.load('particles-js', particlesConfigPath, function () {
+      console.log('particles.js loaded - callback');
+    });
+  };
+  document.head.appendChild(script);
 </script>
 
 <style>
