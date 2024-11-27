@@ -17,6 +17,122 @@
 &lt;/h3&gt;</description>
         </item>
         <item>
+        <title>Showcasing My Power BI Skills: Case Competition Experience</title>
+        <link>https://ENOCHSHAUI.github.io/p/showcasing-my-power-bi-skills-case-competition-experience/</link>
+        <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://ENOCHSHAUI.github.io/p/showcasing-my-power-bi-skills-case-competition-experience/</guid>
+        <description>&lt;img src="https://ENOCHSHAUI.github.io/p/showcasing-my-power-bi-skills-case-competition-experience/power-bi.png" alt="Featured image of post Showcasing My Power BI Skills: Case Competition Experience" /&gt;&lt;h2 id=&#34;power-bi-case-competition-a-learning-and-winning-experience-&#34;&gt;Power BI Case Competition: A Learning and Winning Experience 🎉
+&lt;/h2&gt;&lt;p align=&#34;center&#34;&gt;
+  &lt;img src=&#34;power-bi-workshop.png&#34; alt=&#34;Advanced Power BI Workshop&#34; width=&#34;500&#34;&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;about-the-competition&#34;&gt;About the Competition
+&lt;/h3&gt;&lt;p&gt;In the &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.uoadsc.com/events/j5i9ciy3qwfh1cpvlcduos12s2feq3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DSC × IBSS × EY Case Competition 2024&lt;/a&gt;&lt;/strong&gt;, my team participated in a real-world business case challenge sponsored by &lt;strong&gt;EY&lt;/strong&gt;. This competition provided an incredible opportunity to enhance my analytical, teamwork, and data storytelling skills.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Key Dates:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Case Released:&lt;/strong&gt; 15th August&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Submission Deadline:&lt;/strong&gt; 22nd August&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Final Presentations:&lt;/strong&gt; 24th August&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Result:&lt;/strong&gt; 🏆 &lt;strong&gt;Third Place!&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This competition emphasized not only solving complex business cases but also the importance of effective communication through &lt;strong&gt;data visualization&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;my-role-and-contributions&#34;&gt;My Role and Contributions
+&lt;/h3&gt;&lt;p&gt;During the competition, I focused on leveraging &lt;strong&gt;Power BI&lt;/strong&gt; to deliver meaningful insights. My key contributions included:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Data Cleaning and Preparation:&lt;/strong&gt; Ensured the dataset was properly wrangled and ready for analysis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dynamic Dashboards:&lt;/strong&gt; Designed interactive dashboards to highlight key trends and actionable recommendations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Storytelling:&lt;/strong&gt; Applied visualization principles to craft compelling narratives that resonated with both judges and teammates.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;my-power-bi-dashboard&#34;&gt;My Power BI Dashboard
+&lt;/h3&gt;&lt;p&gt;Here is a preview of the interactive &lt;strong&gt;Power BI Dashboard&lt;/strong&gt; that we developed for the competition:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ENOCHSHAUI.github.io/p/showcasing-my-power-bi-skills-case-competition-experience/dashboard.png&#34;
+	width=&#34;1485&#34;
+	height=&#34;830&#34;
+	srcset=&#34;https://ENOCHSHAUI.github.io/p/showcasing-my-power-bi-skills-case-competition-experience/dashboard_hu9677150526730961693.png 480w, https://ENOCHSHAUI.github.io/p/showcasing-my-power-bi-skills-case-competition-experience/dashboard_hu4192994623398401816.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Power BI Dashboard&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;178&#34;
+		data-flex-basis=&#34;429px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;key-features&#34;&gt;Key Features:
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Sales Overview&lt;/strong&gt;: Comprehensive view of total sales, profit margins, and customer segments.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sales Forecasting&lt;/strong&gt;: Forecasts generated using SARIMA, Linear Regression, Random Forest, and XGBoost models for precise decision-making.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Basket Analysis&lt;/strong&gt;: Association rule-based heatmaps to highlight product correlations and optimize cross-selling strategies.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Architecture Flow&lt;/strong&gt;: Detailed architecture for seamless data processing, integration, and visualization.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;dashboard-insights&#34;&gt;Dashboard Insights
+&lt;/h3&gt;&lt;h4 id=&#34;sales-forecasting&#34;&gt;&lt;strong&gt;Sales Forecasting&lt;/strong&gt;
+&lt;/h4&gt;&lt;p&gt;Our team used multiple regression models to predict sales trends effectively:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SARIMA&lt;/strong&gt;: Ideal for time series data with seasonal patterns, identifying periodic sales trends.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Linear Regression&lt;/strong&gt;: Efficient for steady sales trends and simple to implement.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Random Forest Regression&lt;/strong&gt;: Tackled non-linear relationships in sales data, ensuring robust predictions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;XGBoost Regression&lt;/strong&gt;: A high-performance model for complex sales patterns with precision.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;basket-analysis&#34;&gt;&lt;strong&gt;Basket Analysis&lt;/strong&gt;
+&lt;/h4&gt;&lt;p&gt;We utilized Python-generated heatmaps for market basket analysis:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Market Basket Analysis&lt;/strong&gt;: Identified frequently co-purchased products using association rule mining.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Heatmap Visualization&lt;/strong&gt;: Dynamically updated to showcase strong (yellow) and weak (purple) product correlations.&lt;/li&gt;
+&lt;li&gt;This analysis offered insights for cross-selling opportunities and inventory planning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;architecture-diagram&#34;&gt;&lt;strong&gt;Architecture Diagram&lt;/strong&gt;
+&lt;/h4&gt;&lt;p&gt;Our architecture diagram illustrates the seamless data pipeline:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Data Sources&lt;/strong&gt;: Integrated data from SharePoint, SQL databases, and APIs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Processing Workflow&lt;/strong&gt;: Applied Python scripts for data transformation before feeding into Power BI.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integration&lt;/strong&gt;: Hosted Power BI dashboards on collaborative platforms like Microsoft Teams and exported them in &lt;code&gt;.pbix&lt;/code&gt; format for flexibility.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;img src=&#34;architecture-diagram.png&#34; alt=&#34;Architecture Diagram&#34; width=&#34;600&#34;&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;workshop-insights&#34;&gt;Workshop Insights
+&lt;/h3&gt;&lt;p&gt;Before the competition, I attended the &lt;strong&gt;Storytelling with Data&lt;/strong&gt; workshop by &lt;strong&gt;Data Insight&lt;/strong&gt;, where I learned:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Design Principles:&lt;/strong&gt; Simplify visuals for better readability.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Perception:&lt;/strong&gt; Understand how users interpret data for maximum impact.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; Explored Power BI&amp;rsquo;s advanced storytelling features, also some python stripe.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;download-bi-brains-dashboard&#34;&gt;Download BI Brains Dashboard
+&lt;/h3&gt;&lt;p&gt;Click below to download the complete Power BI project, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;.pbix&lt;/code&gt; file&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;requirements.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Supporting files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;BI-Brains-Dashboard.zip&#34; &gt;Download Here&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;screenshot-of-my-certificate&#34;&gt;Screenshot of My Certificate
+&lt;/h3&gt;&lt;p&gt;&lt;em&gt;(Optional: Insert a certificate screenshot here)&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;final-thoughts&#34;&gt;Final Thoughts
+&lt;/h3&gt;&lt;p&gt;This competition showcased my ability to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solve complex problems using &lt;strong&gt;data-driven approaches&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Communicate insights effectively to non-technical audiences.&lt;/li&gt;
+&lt;li&gt;Collaborate in a competitive, fast-paced environment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you&amp;rsquo;re looking for someone with a passion for data and storytelling, feel free to &lt;a class=&#34;link&#34; href=&#34;mailto:sunyike880@gmail.com&#34; &gt;connect with me&lt;/a&gt;!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I’m excited to continue my journey as a data analyst, leveraging tools like Power BI to solve real-world challenges. Thank you for reading about my experience!&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Work Experience: Facilitating Partnerships</title>
         <link>https://ENOCHSHAUI.github.io/p/work-experience-facilitating-partnerships/</link>
         <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
@@ -429,8 +545,6 @@ A reusable template I created to streamline the drafting process for future busi
 
 &lt;h3 id=&#34;examples&#34;&gt;Examples
 &lt;/h3&gt;&lt;p&gt;Inline math: $\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$&lt;/p&gt;
-&lt;p&gt;Block math:
-&lt;/p&gt;
 $$
  \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
 $$</description>
