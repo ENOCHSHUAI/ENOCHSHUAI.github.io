@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Game Development on Enoch Sun</title>
+        <link>https://ENOCHSHAUI.github.io/categories/game-development/</link>
+        <description>Recent content in Game Development on Enoch Sun</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Enoch Sun</copyright>
+        <lastBuildDate>Mon, 16 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ENOCHSHAUI.github.io/categories/game-development/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Gold Miner: A Classic Java Game</title>
+        <link>https://ENOCHSHAUI.github.io/p/gold-miner-a-classic-java-game/</link>
+        <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://ENOCHSHAUI.github.io/p/gold-miner-a-classic-java-game/</guid>
+        <description>&lt;img src="https://ENOCHSHAUI.github.io/p/gold-miner-a-classic-java-game/gold-miner-icon.png" alt="Featured image of post Gold Miner: A Classic Java Game" /&gt;&lt;h2 id=&#34;gold-miner-a-fun-and-challenging-java-game-&#34;&gt;Gold Miner: A Fun and Challenging Java Game 🎮
+&lt;/h2&gt;&lt;p align=&#34;center&#34;&gt;
+  &lt;img src=&#34;gold-miner-screenshot.png&#34; alt=&#34;Gold Miner Game Screenshot&#34; width=&#34;600&#34;&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;project-overview&#34;&gt;Project Overview
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Gold Miner&lt;/strong&gt; is a Java-based game where players control a claw to collect gold, rocks, and other items to achieve target scores. The game is designed to test the player&amp;rsquo;s timing and decision-making skills, with increasing difficulty as they progress through levels.&lt;/p&gt;
+&lt;p&gt;This project highlights my ability to develop engaging and functional games using &lt;strong&gt;Java Swing&lt;/strong&gt; for the GUI and modular code for extensibility.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;features&#34;&gt;Features
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Variety of Items:&lt;/strong&gt; Includes gold, large rocks, small rocks, and more, each with different point values.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multiple Levels:&lt;/strong&gt; The game becomes more challenging as players progress, with increased target scores and time limits.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time and Score Mechanics:&lt;/strong&gt; Players must meet a target score within a set time to advance to the next level.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simple Interface:&lt;/strong&gt; The game interface is clean and functional, built using &lt;strong&gt;Java Swing&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Extensibility:&lt;/strong&gt; The code is modular, making it easy to add new features like items, levels, or mechanics.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;planned-features&#34;&gt;Planned Features
+&lt;/h3&gt;&lt;p&gt;While the current version of &lt;strong&gt;Gold Miner&lt;/strong&gt; offers a complete gaming experience, I plan to enhance it in the future with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Background Music and Sound Effects:&lt;/strong&gt; To improve player engagement.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;More Levels and Items:&lt;/strong&gt; To increase replayability and depth.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Leaderboard:&lt;/strong&gt; For tracking and displaying high scores.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enhanced Interactivity:&lt;/strong&gt; Adding features like power-ups and special abilities.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;project-demonstration&#34;&gt;Project Demonstration
+&lt;/h3&gt;&lt;p&gt;Here’s a short video showcasing the features and gameplay of &lt;strong&gt;Gold Miner&lt;/strong&gt;:&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;video controls width=&#34;700&#34;&gt;
+    &lt;source src=&#34;gold-miner-demo.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    Your browser does not support the video tag.
+  &lt;/video&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;explore-the-code&#34;&gt;Explore the Code
+&lt;/h3&gt;&lt;p&gt;The full project code is available on my GitHub. Check it out to explore how the game is structured and implemented:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/ENOCHSHUAI/GoldMiner&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;👉 Visit the Gold Miner GitHub Repository&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;why-this-project-matters&#34;&gt;Why This Project Matters
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Gold Miner&lt;/strong&gt; showcases my:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Game Development Skills:&lt;/strong&gt; Creating a fully functional and engaging game.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Proficiency in Java:&lt;/strong&gt; Using object-oriented programming and Java Swing for GUI design.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modular Design Approach:&lt;/strong&gt; Writing maintainable and extensible code.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Creativity:&lt;/strong&gt; Developing a game that combines logic, timing, and fun.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you&amp;rsquo;re looking for a developer who can combine technical skills with creativity, let&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;mailto:sunyike880@gmail.com&#34; &gt;connect&lt;/a&gt;!&lt;/p&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
