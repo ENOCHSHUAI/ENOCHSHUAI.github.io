@@ -15,7 +15,7 @@
         <guid>https://ENOCHSHAUI.github.io/p/showcasing-my-power-bi-skills-case-competition-experience/</guid>
         <description>&lt;img src="https://ENOCHSHAUI.github.io/p/showcasing-my-power-bi-skills-case-competition-experience/power-bi.png" alt="Featured image of post Showcasing My Power BI Skills: Case Competition Experience" /&gt;&lt;h2 id=&#34;power-bi-case-competition-a-learning-and-winning-experience-&#34;&gt;Power BI Case Competition: A Learning and Winning Experience 🎉
 &lt;/h2&gt;&lt;p align=&#34;center&#34;&gt;
-  &lt;img src=&#34;power-bi-workshop.png&#34; alt=&#34;Advanced Power BI Workshop&#34; width=&#34;500&#34;&gt;
+  &lt;img src=&#34;allpeople.JPG&#34; alt=&#34;Power BI Workshop&#34; width=&#34;500&#34;&gt;
 &lt;/p&gt;
 &lt;h3 id=&#34;about-the-competition&#34;&gt;About the Competition
 &lt;/h3&gt;&lt;p&gt;In the &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.uoadsc.com/events/j5i9ciy3qwfh1cpvlcduos12s2feq3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -66,7 +66,10 @@
 &lt;hr&gt;
 &lt;h3 id=&#34;dashboard-insights&#34;&gt;Dashboard Insights
 &lt;/h3&gt;&lt;h4 id=&#34;sales-forecasting&#34;&gt;&lt;strong&gt;Sales Forecasting&lt;/strong&gt;
-&lt;/h4&gt;&lt;p&gt;Our team used multiple regression models to predict sales trends effectively:&lt;/p&gt;
+&lt;/h4&gt;&lt;p align=&#34;center&#34;&gt;
+  &lt;img src=&#34;XG.png&#34; alt=&#34;XGBoost Regression Model&#34; width=&#34;1000&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;Our team used multiple regression models to predict sales trends effectively:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;SARIMA&lt;/strong&gt;: Ideal for time series data with seasonal patterns, identifying periodic sales trends.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Linear Regression&lt;/strong&gt;: Efficient for steady sales trends and simple to implement.&lt;/li&gt;
@@ -74,7 +77,10 @@
 &lt;li&gt;&lt;strong&gt;XGBoost Regression&lt;/strong&gt;: A high-performance model for complex sales patterns with precision.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;basket-analysis&#34;&gt;&lt;strong&gt;Basket Analysis&lt;/strong&gt;
-&lt;/h4&gt;&lt;p&gt;We utilized Python-generated heatmaps for market basket analysis:&lt;/p&gt;
+&lt;/h4&gt;&lt;p align=&#34;center&#34;&gt;
+  &lt;img src=&#34;SalesandMargin.png&#34; alt=&#34;Sales&amp;Margin&#34; width=&#34;1000&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;We utilized Python-generated heatmaps for market basket analysis:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Market Basket Analysis&lt;/strong&gt;: Identified frequently co-purchased products using association rule mining.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Heatmap Visualization&lt;/strong&gt;: Dynamically updated to showcase strong (yellow) and weak (purple) product correlations.&lt;/li&gt;
@@ -88,7 +94,7 @@
 &lt;li&gt;&lt;strong&gt;Integration&lt;/strong&gt;: Hosted Power BI dashboards on collaborative platforms like Microsoft Teams and exported them in &lt;code&gt;.pbix&lt;/code&gt; format for flexibility.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p align=&#34;center&#34;&gt;
-  &lt;img src=&#34;architecture-diagram.png&#34; alt=&#34;Architecture Diagram&#34; width=&#34;600&#34;&gt;
+  &lt;img src=&#34;architecture-diagram.png&#34; alt=&#34;Architecture Diagram&#34; width=&#34;1000&#34;&gt;
 &lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;workshop-insights&#34;&gt;Workshop Insights
@@ -108,9 +114,6 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;BI-Brains-Dashboard.zip&#34; &gt;Download Here&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;screenshot-of-my-certificate&#34;&gt;Screenshot of My Certificate
-&lt;/h3&gt;&lt;p&gt;&lt;em&gt;(Optional: Insert a certificate screenshot here)&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
 &lt;h3 id=&#34;final-thoughts&#34;&gt;Final Thoughts
 &lt;/h3&gt;&lt;p&gt;This competition showcased my ability to:&lt;/p&gt;
 &lt;ul&gt;
@@ -118,7 +121,7 @@
 &lt;li&gt;Communicate insights effectively to non-technical audiences.&lt;/li&gt;
 &lt;li&gt;Collaborate in a competitive, fast-paced environment.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;If you&amp;rsquo;re looking for someone with a passion for data and storytelling, feel free to &lt;a class=&#34;link&#34; href=&#34;mailto:sunyike880@gmail.com&#34; &gt;connect with me&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re looking for someone with a passion for data and storytelling, feel free to contact me at &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;mailto:sunyike88@gmail.com&#34; &gt;sunyike88@gmail.com&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I’m excited to continue my journey as a data analyst, leveraging tools like Power BI to solve real-world challenges. Thank you for reading about my experience!&lt;/p&gt;
 </description>
