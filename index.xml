@@ -141,14 +141,14 @@
         <pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate>
         
         <guid>https://ENOCHSHAUI.github.io/p/restore-showcasing-my-e-commerce-project/</guid>
-        <description>&lt;img src="https://ENOCHSHAUI.github.io/restore-cover.png" alt="Featured image of post ReStore: Showcasing My E-Commerce Project" /&gt;&lt;h2 id=&#34;restore-building-an-e-commerce-platform-from-scratch-&#34;&gt;ReStore: Building an E-Commerce Platform from Scratch 🛒
+        <description>&lt;img src="https://ENOCHSHAUI.github.io/p/restore-showcasing-my-e-commerce-project/Restoreicon.png" alt="Featured image of post ReStore: Showcasing My E-Commerce Project" /&gt;&lt;h2 id=&#34;restore-building-an-e-commerce-platform-from-scratch-&#34;&gt;ReStore: Building an E-Commerce Platform from Scratch 🛒
 &lt;/h2&gt;&lt;p align=&#34;center&#34;&gt;
-  &lt;img src=&#34;restore-screenshot.png&#34; alt=&#34;ReStore Project Screenshot&#34; width=&#34;600&#34;&gt;
+  &lt;img src=&#34;RestoreSrceenshot.png&#34; alt=&#34;ReStore Project Screenshot&#34; width=&#34;600&#34;&gt;
 &lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;project-overview&#34;&gt;Project Overview
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;ReStore&lt;/strong&gt; is a complete e-commerce platform I built to strengthen my skills in full-stack web development. This project showcases my ability to design and implement a functional, user-friendly online shopping website.&lt;/p&gt;
-&lt;p&gt;With features like browsing products, adding items to the shopping cart, and proceeding to checkout, ReStore demonstrates both &lt;strong&gt;frontend&lt;/strong&gt; and &lt;strong&gt;backend&lt;/strong&gt; development expertise.&lt;/p&gt;
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;ReStore&lt;/strong&gt; is an ongoing e-commerce platform project that I am building to strengthen my skills in full-stack web development. This project showcases my ability to design and implement a functional, user-friendly online shopping website.&lt;/p&gt;
+&lt;p&gt;Currently, the project includes core features such as browsing products, adding items to the shopping cart, and viewing product details. While the basic structure is in place, there are additional functionalities I plan to implement in the future to make it more comprehensive.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;key-features&#34;&gt;Key Features
 &lt;/h3&gt;&lt;h4 id=&#34;frontend&#34;&gt;&lt;strong&gt;Frontend&lt;/strong&gt;
@@ -165,15 +165,17 @@
 &lt;li&gt;&lt;strong&gt;Real-Time Communication with WebSockets:&lt;/strong&gt; Adds dynamic features for seamless updates.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;advanced-features&#34;&gt;Advanced Features
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Real-Time Updates:&lt;/strong&gt; Users experience live notifications and updates powered by WebSockets.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Dynamic Theming:&lt;/strong&gt; The ability to switch between light and dark modes enhances usability and personalization.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Scalable State Management:&lt;/strong&gt; Redux handles application state effectively, ensuring scalability for future enhancements.&lt;/li&gt;
+&lt;h3 id=&#34;planned-features&#34;&gt;Planned Features
+&lt;/h3&gt;&lt;p&gt;While the current version of &lt;strong&gt;ReStore&lt;/strong&gt; includes essential e-commerce functionalities, there are additional features I plan to incorporate:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;User Authentication:&lt;/strong&gt; Implementing a registration and login system for personalized user experiences. However, since I have already built a user authentication system in another project, I might reuse parts of that implementation instead of starting from scratch.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Order History and Tracking:&lt;/strong&gt; Allowing users to view past orders and track current purchases.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Payment Integration:&lt;/strong&gt; Adding secure payment gateways for seamless transactions.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;These enhancements will further showcase my ability to create robust, full-featured web applications.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;project-demonstration&#34;&gt;Project Demonstration
-&lt;/h3&gt;&lt;p&gt;Here’s a video showcasing the features and functionality of ReStore:&lt;/p&gt;
+&lt;/h3&gt;&lt;p&gt;Here’s a video showcasing the features and functionality of the current version of ReStore:&lt;/p&gt;
 &lt;p align=&#34;center&#34;&gt;
   &lt;video controls width=&#34;700&#34;&gt;
     &lt;source src=&#34;restore-demo.mp4&#34; type=&#34;video/mp4&#34;&gt;
