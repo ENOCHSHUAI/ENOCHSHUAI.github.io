@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>React on Enoch Sun</title>
+        <link>https://ENOCHSHAUI.github.io/tags/react/</link>
+        <description>Recent content in React on Enoch Sun</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Enoch Sun</copyright>
+        <lastBuildDate>Tue, 28 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ENOCHSHAUI.github.io/tags/react/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ReStore: Showcasing My E-Commerce Project</title>
+        <link>https://ENOCHSHAUI.github.io/p/restore-showcasing-my-e-commerce-project/</link>
+        <pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://ENOCHSHAUI.github.io/p/restore-showcasing-my-e-commerce-project/</guid>
+        <description>&lt;img src="https://ENOCHSHAUI.github.io/restore-cover.png" alt="Featured image of post ReStore: Showcasing My E-Commerce Project" /&gt;&lt;h2 id=&#34;restore-building-an-e-commerce-platform-from-scratch-&#34;&gt;ReStore: Building an E-Commerce Platform from Scratch 🛒
+&lt;/h2&gt;&lt;p align=&#34;center&#34;&gt;
+  &lt;img src=&#34;restore-screenshot.png&#34; alt=&#34;ReStore Project Screenshot&#34; width=&#34;600&#34;&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;project-overview&#34;&gt;Project Overview
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;ReStore&lt;/strong&gt; is a complete e-commerce platform I built to strengthen my skills in full-stack web development. This project showcases my ability to design and implement a functional, user-friendly online shopping website.&lt;/p&gt;
+&lt;p&gt;With features like browsing products, adding items to the shopping cart, and proceeding to checkout, ReStore demonstrates both &lt;strong&gt;frontend&lt;/strong&gt; and &lt;strong&gt;backend&lt;/strong&gt; development expertise.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;key-features&#34;&gt;Key Features
+&lt;/h3&gt;&lt;h4 id=&#34;frontend&#34;&gt;&lt;strong&gt;Frontend&lt;/strong&gt;
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Built with React &amp;amp; TypeScript:&lt;/strong&gt; Ensures type safety and maintainable code.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Responsive Design with MUI:&lt;/strong&gt; Provides a visually appealing interface across desktop and mobile devices.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;State Management with Redux:&lt;/strong&gt; Efficiently handles the global state across the application.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Theme Switching:&lt;/strong&gt; Offers both dark and light modes for a customizable user experience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;backend&#34;&gt;&lt;strong&gt;Backend&lt;/strong&gt;
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;C# and .NET 6:&lt;/strong&gt; Provides a reliable backend framework for handling data and APIs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;EF Core with SQLite:&lt;/strong&gt; Ensures efficient data storage and CRUD operations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-Time Communication with WebSockets:&lt;/strong&gt; Adds dynamic features for seamless updates.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;advanced-features&#34;&gt;Advanced Features
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Real-Time Updates:&lt;/strong&gt; Users experience live notifications and updates powered by WebSockets.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dynamic Theming:&lt;/strong&gt; The ability to switch between light and dark modes enhances usability and personalization.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scalable State Management:&lt;/strong&gt; Redux handles application state effectively, ensuring scalability for future enhancements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;project-demonstration&#34;&gt;Project Demonstration
+&lt;/h3&gt;&lt;p&gt;Here’s a video showcasing the features and functionality of ReStore:&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;video controls width=&#34;700&#34;&gt;
+    &lt;source src=&#34;restore-demo.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    Your browser does not support the video tag.
+  &lt;/video&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;explore-the-code&#34;&gt;Explore the Code
+&lt;/h3&gt;&lt;p&gt;The full project code is available on my GitHub. Feel free to explore and learn more about how I implemented these features:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/ENOCHSHUAI/ReStore&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;👉 Visit the ReStore GitHub Repository&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;why-this-project-matters&#34;&gt;Why This Project Matters
+&lt;/h3&gt;&lt;p&gt;ReStore not only highlights my technical skills in web development but also demonstrates my:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ability to independently learn and apply new technologies.&lt;/li&gt;
+&lt;li&gt;Strong problem-solving skills in implementing advanced features.&lt;/li&gt;
+&lt;li&gt;Dedication to building scalable and user-focused web applications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you&amp;rsquo;re looking for a passionate developer with hands-on experience in building dynamic web applications, let&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;mailto:sunyike880@gmail.com&#34; &gt;connect&lt;/a&gt;!&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
