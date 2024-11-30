@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="A comprehensive web-based dance event management system developed by a six-member team, designed to optimize the registration and management of dance competitions.">
+<title>Dance Event Application: Streamlining Dance Competition Management</title>
+
+<link rel='canonical' href='https://ENOCHSHAUI.github.io/p/dance-event-application-streamlining-dance-competition-management/'>
+
+<link rel="stylesheet" href="/scss/style.min.a67a3361e416dbb3af1e2a0bc1312c3900d6fa8aa47a3298deb10a11c62d6b70.css"><meta property='og:title' content="Dance Event Application: Streamlining Dance Competition Management">
+<meta property='og:description' content="A comprehensive web-based dance event management system developed by a six-member team, designed to optimize the registration and management of dance competitions.">
+<meta property='og:url' content='https://ENOCHSHAUI.github.io/p/dance-event-application-streamlining-dance-competition-management/'>
+<meta property='og:site_name' content='Enoch Sun'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='ASP.NET Core' /><meta property='article:tag' content='React' /><meta property='article:tag' content='AWS' /><meta property='article:tag' content='Event Management' /><meta property='article:tag' content='Team Collaboration' /><meta property='article:published_time' content='2024-10-28T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-10-28T00:00:00&#43;00:00'/><meta property='og:image' content='https://ENOCHSHAUI.github.io/p/dance-event-application-streamlining-dance-competition-management/dance-event-app-icon.png' />
+<meta name="twitter:title" content="Dance Event Application: Streamlining Dance Competition Management">
+<meta name="twitter:description" content="A comprehensive web-based dance event management system developed by a six-member team, designed to optimize the registration and management of dance competitions."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://ENOCHSHAUI.github.io/p/dance-event-application-streamlining-dance-competition-management/dance-event-app-icon.png' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+        
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu5864625781246393295.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">😁</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Enoch Sun</a></h1>
+            <h2 class="site-description">Welcome to my website! It is mainly used to share various projects I&#39;ve been learning.😘</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='mailto:sunyike88@gmail.com'
+                        target="_blank"
+                        title="Email"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://enochshuai.github.io/'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.instagram.com/e.n.o.c.h.shuai/'
+                        target="_blank"
+                        title="Instagram"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path> <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path> <path d="M16.5 7.5l0 .01"></path> </svg> 
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#dance-event-application-revolutionizing-dance-competition-management-">Dance Event Application: Revolutionizing Dance Competition Management 💃🕺</a>
+      <ol>
+        <li><a href="#project-overview"><strong>Project Overview</strong></a></li>
+        <li><a href="#key-features"><strong>Key Features</strong></a>
+          <ol>
+            <li><a href="#1-user-roles-and-permissions"><strong>1. User Roles and Permissions</strong></a></li>
+            <li><a href="#2-participant-registration"><strong>2. Participant Registration</strong></a></li>
+            <li><a href="#3-competition-management"><strong>3. Competition Management</strong></a></li>
+            <li><a href="#4-payment-integration"><strong>4. Payment Integration</strong></a></li>
+            <li><a href="#5-data-analytics"><strong>5. Data Analytics</strong></a></li>
+            <li><a href="#6-automation-and-scalability"><strong>6. Automation and Scalability</strong></a></li>
+          </ol>
+        </li>
+        <li><a href="#technologies-used"><strong>Technologies Used</strong></a></li>
+        <li><a href="#system-architecture"><strong>System Architecture</strong></a></li>
+        <li><a href="#database-schema"><strong>Database Schema</strong></a></li>
+        <li><a href="#development-journey"><strong>Development Journey</strong></a>
+          <ol>
+            <li><a href="#1-planning-and-requirement-gathering"><strong>1. Planning and Requirement Gathering</strong></a></li>
+            <li><a href="#2-team-collaboration"><strong>2. Team Collaboration</strong></a></li>
+            <li><a href="#3-challenges-and-solutions"><strong>3. Challenges and Solutions</strong></a></li>
+            <li><a href="#4-deployment"><strong>4. Deployment</strong></a></li>
+          </ol>
+        </li>
+        <li><a href="#planned-enhancements"><strong>Planned Enhancements</strong></a></li>
+        <li><a href="#acknowledgements"><strong>Acknowledgements</strong></a></li>
+        <li><a href="#contact-and-demo"><strong>Contact and Demo</strong></a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+        <div style="height: 30%;width: 30%">
+            <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=RX3Z7XJSA_-kI0ClVzcOH24rRXkdiE_m4wTKMAx57QY"></script>
+        </div>
+    </aside>
+
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/dance-event-application-streamlining-dance-competition-management/">
+                <img src="/p/dance-event-application-streamlining-dance-competition-management/dance-event-app-icon_hu6752515469982286649.png"
+                        srcset="/p/dance-event-application-streamlining-dance-competition-management/dance-event-app-icon_hu6752515469982286649.png 800w, /p/dance-event-application-streamlining-dance-competition-management/dance-event-app-icon_hu666678605739014404.png 1600w"
+                        width="800" 
+                        height="304" 
+                        loading="lazy"
+                        alt="Featured image of post Dance Event Application: Streamlining Dance Competition Management" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/projects/" >
+                Projects
+            </a>
+        
+            <a href="/categories/web-development/" >
+                Web Development
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/dance-event-application-streamlining-dance-competition-management/">Dance Event Application: Streamlining Dance Competition Management</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            A comprehensive web-based dance event management system developed by a six-member team, designed to optimize the registration and management of dance competitions.
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 28, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    4 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="dance-event-application-revolutionizing-dance-competition-management-">Dance Event Application: Revolutionizing Dance Competition Management 💃🕺
+</h2><p align="center">
+  <img src="dance-event-app-screenshot.png" alt="Dance Event Application Screenshot" width="600">
+</p>
+<hr>
+<h3 id="project-overview"><strong>Project Overview</strong>
+</h3><p>The <strong>Dance Event Application</strong> is the most comprehensive and collaborative project I’ve worked on, developed over four months by a six-member team. This project is a <strong>web-based dance event management system</strong> designed to address inefficiencies in managing dance competitions. The platform not only streamlines participant registration but also enhances competition management for organizers.</p>
+<p>With over <strong>14,000 users</strong> (parents, teachers, and organizers), this platform provides a <strong>unified, automated, and scalable</strong> solution for registering and managing dance competitions. From handling eligibility requirements to secure payment processing, this application meets the needs of diverse stakeholders in the dance competition ecosystem.</p>
+<blockquote>
+<p><strong>Confidentiality Notice:</strong> Due to a non-disclosure agreement (NDA) signed with our client, we cannot share the source code or sensitive project details. However, we are happy to share an overview of the system and its capabilities.</p>
+</blockquote>
+<hr>
+<h3 id="key-features"><strong>Key Features</strong>
+</h3><h4 id="1-user-roles-and-permissions"><strong>1. User Roles and Permissions</strong>
+</h4><ul>
+<li><strong>Super Organizer</strong>:
+<ul>
+<li>Oversees all competitions, users, and permissions.</li>
+<li>Manages requests from new organizers.</li>
+</ul>
+</li>
+<li><strong>Organizer</strong>:
+<ul>
+<li>Creates and manages competitions, sets eligibility rules (e.g., age, group size).</li>
+</ul>
+</li>
+<li><strong>Participant</strong>:
+<ul>
+<li>Registers individuals or groups for competitions.</li>
+<li>Parents and teachers can manage registrations for their children or students.</li>
+</ul>
+</li>
+</ul>
+<h4 id="2-participant-registration"><strong>2. Participant Registration</strong>
+</h4><ul>
+<li>Allows <strong>individual</strong> or <strong>group-based</strong> registrations.</li>
+<li>Automatically calculates age and group eligibility based on birthdates.</li>
+</ul>
+<h4 id="3-competition-management"><strong>3. Competition Management</strong>
+</h4><ul>
+<li>Organizers can:
+<ul>
+<li>Create and edit competitions.</li>
+<li>Set custom rules for age ranges, participant limits, and group sizes.</li>
+<li>Monitor and analyze registrations and seat availability.</li>
+</ul>
+</li>
+</ul>
+<h4 id="4-payment-integration"><strong>4. Payment Integration</strong>
+</h4><ul>
+<li>Secure multi-competition payment processing using <strong>Stripe</strong>.</li>
+<li>Participants can add multiple competitions to a cart and pay in one transaction.</li>
+</ul>
+<h4 id="5-data-analytics"><strong>5. Data Analytics</strong>
+</h4><ul>
+<li>Provides organizers with:
+<ul>
+<li>Insights into registration trends.</li>
+<li>Data for planning and optimizing future events.</li>
+</ul>
+</li>
+</ul>
+<h4 id="6-automation-and-scalability"><strong>6. Automation and Scalability</strong>
+</h4><ul>
+<li>Automates repetitive tasks like age calculation and eligibility checks.</li>
+<li>Hosted on <strong>AWS</strong> to handle high registration volumes during peak times.</li>
+</ul>
+<hr>
+<h3 id="technologies-used"><strong>Technologies Used</strong>
+</h3><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th><strong>Technology</strong></th>
+          <th><strong>Purpose</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>React</strong> (18.2.0)</td>
+          <td>Frontend development and user interface.</td>
+      </tr>
+      <tr>
+          <td><strong>ASP.NET Core</strong> (8)</td>
+          <td>Backend API development and business logic.</td>
+      </tr>
+      <tr>
+          <td><strong>SQL Server</strong> (2022)</td>
+          <td>Database management for structured data.</td>
+      </tr>
+      <tr>
+          <td><strong>JWT</strong></td>
+          <td>Secure user authentication and authorization.</td>
+      </tr>
+      <tr>
+          <td><strong>AWS</strong></td>
+          <td>Hosting and scalability (API Gateway, Amplify, Lambda).</td>
+      </tr>
+      <tr>
+          <td><strong>Stripe</strong></td>
+          <td>Secure payment gateway integration.</td>
+      </tr>
+  </tbody>
+</table></div>
+<hr>
+<h3 id="system-architecture"><strong>System Architecture</strong>
+</h3><p>The system uses a <strong>tiered architecture</strong> with the following components:</p>
+<ol>
+<li><strong>Frontend (React)</strong>: A user-friendly interface allowing participants and organizers to manage events and registrations.</li>
+<li><strong>Backend (ASP.NET Core)</strong>: A RESTful API layer for handling business logic, user authentication, and database operations.</li>
+<li><strong>Database (SQL Server)</strong>: Stores user, competition, and registration data.</li>
+<li><strong>Authentication (JWT)</strong>: Ensures secure access to APIs and user-specific data.</li>
+<li><strong>Cloud Hosting (AWS)</strong>: Provides reliability, scalability, and cost-effective infrastructure.</li>
+</ol>
+<p align="center">
+  <img src="system-architecture-diagram.png" alt="System Architecture Diagram" width="600">
+</p>
+<hr>
+<h3 id="database-schema"><strong>Database Schema</strong>
+</h3><p>The following <strong>Entity-Relationship Diagram (ERD)</strong> illustrates the database structure used in the Dance Event Application. It includes relationships between users, participants, groups, competitions, and registrations.</p>
+<p align="center">
+  <img src="dance-event-erd.png" alt="Entity-Relationship Diagram (ERD)" width="800">
+</p>
+<ul>
+<li><strong>Users Table</strong>: Stores user information, including roles (Super Organizer, Organizer, Participant).</li>
+<li><strong>Persons Table</strong>: Contains data for individual participants (e.g., children or students).</li>
+<li><strong>Groups Table</strong>: Represents participant groups with calculated age ranges for eligibility.</li>
+<li><strong>Competitions Table</strong>: Holds information about dance competitions, including rules and schedules.</li>
+<li><strong>PersonCompetition &amp; GroupCompetition Tables</strong>: Establish many-to-many relationships between participants/groups and competitions.</li>
+</ul>
+<hr>
+<h3 id="development-journey"><strong>Development Journey</strong>
+</h3><h4 id="1-planning-and-requirement-gathering"><strong>1. Planning and Requirement Gathering</strong>
+</h4><ul>
+<li>Collaborated with the client to define functional requirements.</li>
+<li>Created initial wireframes and system design.</li>
+</ul>
+<h4 id="2-team-collaboration"><strong>2. Team Collaboration</strong>
+</h4><ul>
+<li>A six-member team with clear role assignments:
+<ul>
+<li><strong>Frontend</strong>: 3 members focused on UI/UX.</li>
+<li><strong>Backend</strong>: 3 members focused on API and database.</li>
+</ul>
+</li>
+<li>Weekly meetings to ensure smooth communication and progress tracking.</li>
+</ul>
+<h4 id="3-challenges-and-solutions"><strong>3. Challenges and Solutions</strong>
+</h4><ul>
+<li><strong>Concurrency Issues</strong>: Implemented database-level locks to prevent double bookings.</li>
+<li><strong>Scalability</strong>: Optimized database queries and used AWS services to handle high traffic.</li>
+<li><strong>Budget Constraints</strong>: Managed the project within the $200 AWS credit provided by the school.</li>
+</ul>
+<h4 id="4-deployment"><strong>4. Deployment</strong>
+</h4><ul>
+<li>Successfully deployed the system on AWS, with a fully functional web interface for organizers and participants.</li>
+</ul>
+<hr>
+<h3 id="planned-enhancements"><strong>Planned Enhancements</strong>
+</h3><ul>
+<li><strong>Dance Video Uploads</strong>: Allow participants to submit videos for remote judging.</li>
+<li><strong>Mobile App</strong>: Expand accessibility by developing a companion mobile app.</li>
+<li><strong>Real-Time Notifications</strong>: Notify users about registration deadlines and updates.</li>
+<li><strong>Leaderboards</strong>: Add scoring and ranking features for competitions.</li>
+</ul>
+<hr>
+<h3 id="acknowledgements"><strong>Acknowledgements</strong>
+</h3><p>This project was made possible through:</p>
+<ul>
+<li><strong>Client Collaboration</strong>: For providing clear requirements and valuable feedback.</li>
+<li><strong>Educational Resources</strong>: Tutorials and documentation that guided us through complex challenges.</li>
+<li><strong>AWS Credit</strong>: A $200 AWS budget from the school enabled seamless hosting and deployment.</li>
+</ul>
+<hr>
+<h3 id="contact-and-demo"><strong>Contact and Demo</strong>
+</h3><p>Although the AWS-hosted version has expired, we’d love to share a local demo or discuss the project in detail. Feel free to reach out!</p>
+<ul>
+<li><strong>Email</strong>: <a class="link" href="mailto:sunyike88@gmail.com" >sunyike88@gmail.com</a></li>
+</ul>
+<hr>
+<p>If you&rsquo;d like to learn more about this project or see a demonstration, don&rsquo;t hesitate to get in touch. This project showcases not only our technical skills but also our ability to work as a team and deliver real-world solutions.</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/asp.net-core/">ASP.NET Core</a>
+        
+            <a href="/tags/react/">React</a>
+        
+            <a href="/tags/aws/">AWS</a>
+        
+            <a href="/tags/event-management/">Event Management</a>
+        
+            <a href="/tags/team-collaboration/">Team Collaboration</a>
+        
+    </section>
+
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/restore-showcasing-my-e-commerce-project/">
+        
+        
+            <div class="article-image">
+                <img src="/p/restore-showcasing-my-e-commerce-project/Restoreicon.2eb5e6e21377f52ce4b0aaf05aee4ff2_hu3427124890704623449.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ReStore: Showcasing My E-Commerce Project"
+                        
+                        data-hash="md5-LrXm4hN39SzksKrwWu5P8g==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ReStore: Showcasing My E-Commerce Project</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/concert-booking-system-simplifying-ticket-reservations/">
+        
+        
+            <div class="article-image">
+                <img src="/p/concert-booking-system-simplifying-ticket-reservations/concert-booking-icon.529b06dbed98711b034811b82c97cd44_hu11415026874328413472.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Concert Booking System: Simplifying Ticket Reservations"
+                        
+                        data-hash="md5-UpsG2&#43;2YcRsDSBG4LJfNRA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Concert Booking System: Simplifying Ticket Reservations</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/gold-miner-a-classic-java-game/">
+        
+        
+            <div class="article-image">
+                <img src="/p/gold-miner-a-classic-java-game/gold-miner-icon.e7c094aff2ced0c3c23dae052962fcb5_hu8099531233458449851.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Gold Miner: A Classic Java Game"
+                        
+                        data-hash="md5-58CUr/LO0MPCPa4FKWL8tQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Gold Miner: A Classic Java Game</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 Enoch Sun
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<div id="particles-js"></div>
+
+<script src="/background/particles.min.js"></script>
+<script>
+  particlesJS.load('particles-js', '/background/particlesjs-config.json', function () {
+    console.log('particles.js loaded - callback');
+  });
+</script>
+
+<style>
+  #particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+</style>
+
+       
+          
+    </body>
+</html>

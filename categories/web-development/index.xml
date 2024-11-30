@@ -7,7 +7,195 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Enoch Sun</copyright>
-        <lastBuildDate>Tue, 28 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ENOCHSHAUI.github.io/categories/web-development/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 28 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ENOCHSHAUI.github.io/categories/web-development/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Dance Event Application: Streamlining Dance Competition Management</title>
+        <link>https://ENOCHSHAUI.github.io/p/dance-event-application-streamlining-dance-competition-management/</link>
+        <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://ENOCHSHAUI.github.io/p/dance-event-application-streamlining-dance-competition-management/</guid>
+        <description>&lt;img src="https://ENOCHSHAUI.github.io/p/dance-event-application-streamlining-dance-competition-management/dance-event-app-icon.png" alt="Featured image of post Dance Event Application: Streamlining Dance Competition Management" /&gt;&lt;h2 id=&#34;dance-event-application-revolutionizing-dance-competition-management-&#34;&gt;Dance Event Application: Revolutionizing Dance Competition Management 💃🕺
+&lt;/h2&gt;&lt;p align=&#34;center&#34;&gt;
+  &lt;img src=&#34;dance-event-app-screenshot.png&#34; alt=&#34;Dance Event Application Screenshot&#34; width=&#34;600&#34;&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;project-overview&#34;&gt;&lt;strong&gt;Project Overview&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;The &lt;strong&gt;Dance Event Application&lt;/strong&gt; is the most comprehensive and collaborative project I’ve worked on, developed over four months by a six-member team. This project is a &lt;strong&gt;web-based dance event management system&lt;/strong&gt; designed to address inefficiencies in managing dance competitions. The platform not only streamlines participant registration but also enhances competition management for organizers.&lt;/p&gt;
+&lt;p&gt;With over &lt;strong&gt;14,000 users&lt;/strong&gt; (parents, teachers, and organizers), this platform provides a &lt;strong&gt;unified, automated, and scalable&lt;/strong&gt; solution for registering and managing dance competitions. From handling eligibility requirements to secure payment processing, this application meets the needs of diverse stakeholders in the dance competition ecosystem.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Confidentiality Notice:&lt;/strong&gt; Due to a non-disclosure agreement (NDA) signed with our client, we cannot share the source code or sensitive project details. However, we are happy to share an overview of the system and its capabilities.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;key-features&#34;&gt;&lt;strong&gt;Key Features&lt;/strong&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;1-user-roles-and-permissions&#34;&gt;&lt;strong&gt;1. User Roles and Permissions&lt;/strong&gt;
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Super Organizer&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Oversees all competitions, users, and permissions.&lt;/li&gt;
+&lt;li&gt;Manages requests from new organizers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizer&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Creates and manages competitions, sets eligibility rules (e.g., age, group size).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Participant&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Registers individuals or groups for competitions.&lt;/li&gt;
+&lt;li&gt;Parents and teachers can manage registrations for their children or students.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-participant-registration&#34;&gt;&lt;strong&gt;2. Participant Registration&lt;/strong&gt;
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Allows &lt;strong&gt;individual&lt;/strong&gt; or &lt;strong&gt;group-based&lt;/strong&gt; registrations.&lt;/li&gt;
+&lt;li&gt;Automatically calculates age and group eligibility based on birthdates.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3-competition-management&#34;&gt;&lt;strong&gt;3. Competition Management&lt;/strong&gt;
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Organizers can:
+&lt;ul&gt;
+&lt;li&gt;Create and edit competitions.&lt;/li&gt;
+&lt;li&gt;Set custom rules for age ranges, participant limits, and group sizes.&lt;/li&gt;
+&lt;li&gt;Monitor and analyze registrations and seat availability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;4-payment-integration&#34;&gt;&lt;strong&gt;4. Payment Integration&lt;/strong&gt;
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Secure multi-competition payment processing using &lt;strong&gt;Stripe&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Participants can add multiple competitions to a cart and pay in one transaction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;5-data-analytics&#34;&gt;&lt;strong&gt;5. Data Analytics&lt;/strong&gt;
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Provides organizers with:
+&lt;ul&gt;
+&lt;li&gt;Insights into registration trends.&lt;/li&gt;
+&lt;li&gt;Data for planning and optimizing future events.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;6-automation-and-scalability&#34;&gt;&lt;strong&gt;6. Automation and Scalability&lt;/strong&gt;
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Automates repetitive tasks like age calculation and eligibility checks.&lt;/li&gt;
+&lt;li&gt;Hosted on &lt;strong&gt;AWS&lt;/strong&gt; to handle high registration volumes during peak times.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;technologies-used&#34;&gt;&lt;strong&gt;Technologies Used&lt;/strong&gt;
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;Technology&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Purpose&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;React&lt;/strong&gt; (18.2.0)&lt;/td&gt;
+          &lt;td&gt;Frontend development and user interface.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ASP.NET Core&lt;/strong&gt; (8)&lt;/td&gt;
+          &lt;td&gt;Backend API development and business logic.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;SQL Server&lt;/strong&gt; (2022)&lt;/td&gt;
+          &lt;td&gt;Database management for structured data.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;JWT&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Secure user authentication and authorization.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;AWS&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Hosting and scalability (API Gateway, Amplify, Lambda).&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Stripe&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Secure payment gateway integration.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;system-architecture&#34;&gt;&lt;strong&gt;System Architecture&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;The system uses a &lt;strong&gt;tiered architecture&lt;/strong&gt; with the following components:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Frontend (React)&lt;/strong&gt;: A user-friendly interface allowing participants and organizers to manage events and registrations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Backend (ASP.NET Core)&lt;/strong&gt;: A RESTful API layer for handling business logic, user authentication, and database operations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Database (SQL Server)&lt;/strong&gt;: Stores user, competition, and registration data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Authentication (JWT)&lt;/strong&gt;: Ensures secure access to APIs and user-specific data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cloud Hosting (AWS)&lt;/strong&gt;: Provides reliability, scalability, and cost-effective infrastructure.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;img src=&#34;system-architecture-diagram.png&#34; alt=&#34;System Architecture Diagram&#34; width=&#34;600&#34;&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;database-schema&#34;&gt;&lt;strong&gt;Database Schema&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;The following &lt;strong&gt;Entity-Relationship Diagram (ERD)&lt;/strong&gt; illustrates the database structure used in the Dance Event Application. It includes relationships between users, participants, groups, competitions, and registrations.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;img src=&#34;dance-event-erd.png&#34; alt=&#34;Entity-Relationship Diagram (ERD)&#34; width=&#34;800&#34;&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Users Table&lt;/strong&gt;: Stores user information, including roles (Super Organizer, Organizer, Participant).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Persons Table&lt;/strong&gt;: Contains data for individual participants (e.g., children or students).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Groups Table&lt;/strong&gt;: Represents participant groups with calculated age ranges for eligibility.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Competitions Table&lt;/strong&gt;: Holds information about dance competitions, including rules and schedules.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PersonCompetition &amp;amp; GroupCompetition Tables&lt;/strong&gt;: Establish many-to-many relationships between participants/groups and competitions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;development-journey&#34;&gt;&lt;strong&gt;Development Journey&lt;/strong&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;1-planning-and-requirement-gathering&#34;&gt;&lt;strong&gt;1. Planning and Requirement Gathering&lt;/strong&gt;
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Collaborated with the client to define functional requirements.&lt;/li&gt;
+&lt;li&gt;Created initial wireframes and system design.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-team-collaboration&#34;&gt;&lt;strong&gt;2. Team Collaboration&lt;/strong&gt;
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;A six-member team with clear role assignments:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Frontend&lt;/strong&gt;: 3 members focused on UI/UX.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Backend&lt;/strong&gt;: 3 members focused on API and database.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Weekly meetings to ensure smooth communication and progress tracking.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3-challenges-and-solutions&#34;&gt;&lt;strong&gt;3. Challenges and Solutions&lt;/strong&gt;
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Concurrency Issues&lt;/strong&gt;: Implemented database-level locks to prevent double bookings.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scalability&lt;/strong&gt;: Optimized database queries and used AWS services to handle high traffic.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Budget Constraints&lt;/strong&gt;: Managed the project within the $200 AWS credit provided by the school.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;4-deployment&#34;&gt;&lt;strong&gt;4. Deployment&lt;/strong&gt;
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Successfully deployed the system on AWS, with a fully functional web interface for organizers and participants.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;planned-enhancements&#34;&gt;&lt;strong&gt;Planned Enhancements&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dance Video Uploads&lt;/strong&gt;: Allow participants to submit videos for remote judging.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile App&lt;/strong&gt;: Expand accessibility by developing a companion mobile app.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-Time Notifications&lt;/strong&gt;: Notify users about registration deadlines and updates.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Leaderboards&lt;/strong&gt;: Add scoring and ranking features for competitions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;acknowledgements&#34;&gt;&lt;strong&gt;Acknowledgements&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;This project was made possible through:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Client Collaboration&lt;/strong&gt;: For providing clear requirements and valuable feedback.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Educational Resources&lt;/strong&gt;: Tutorials and documentation that guided us through complex challenges.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AWS Credit&lt;/strong&gt;: A $200 AWS budget from the school enabled seamless hosting and deployment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;contact-and-demo&#34;&gt;&lt;strong&gt;Contact and Demo&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;Although the AWS-hosted version has expired, we’d love to share a local demo or discuss the project in detail. Feel free to reach out!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt;: &lt;a class=&#34;link&#34; href=&#34;mailto:sunyike88@gmail.com&#34; &gt;sunyike88@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;If you&amp;rsquo;d like to learn more about this project or see a demonstration, don&amp;rsquo;t hesitate to get in touch. This project showcases not only our technical skills but also our ability to work as a team and deliver real-world solutions.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>ReStore: Showcasing My E-Commerce Project</title>
         <link>https://ENOCHSHAUI.github.io/p/restore-showcasing-my-e-commerce-project/</link>
         <pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate>
