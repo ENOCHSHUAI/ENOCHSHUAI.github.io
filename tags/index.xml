@@ -7,7 +7,47 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Enoch Sun</copyright>
-        <lastBuildDate>Fri, 27 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ENOCHSHAUI.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ENOCHSHAUI.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Java</title>
+        <link>https://ENOCHSHAUI.github.io/tags/java/</link>
+        <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://ENOCHSHAUI.github.io/tags/java/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>JPA</title>
+        <link>https://ENOCHSHAUI.github.io/tags/jpa/</link>
+        <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://ENOCHSHAUI.github.io/tags/jpa/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>RESTful API</title>
+        <link>https://ENOCHSHAUI.github.io/tags/restful-api/</link>
+        <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://ENOCHSHAUI.github.io/tags/restful-api/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Scalable Applications</title>
+        <link>https://ENOCHSHAUI.github.io/tags/scalable-applications/</link>
+        <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://ENOCHSHAUI.github.io/tags/scalable-applications/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Web Service</title>
+        <link>https://ENOCHSHAUI.github.io/tags/web-service/</link>
+        <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://ENOCHSHAUI.github.io/tags/web-service/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Achievements</title>
         <link>https://ENOCHSHAUI.github.io/tags/achievements/</link>
         <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
@@ -117,14 +157,6 @@
         <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
         
         <guid>https://ENOCHSHAUI.github.io/tags/game-development/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Java</title>
-        <link>https://ENOCHSHAUI.github.io/tags/java/</link>
-        <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://ENOCHSHAUI.github.io/tags/java/</guid>
         <description></description>
         </item>
         <item>

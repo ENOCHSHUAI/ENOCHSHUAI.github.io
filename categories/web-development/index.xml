@@ -7,7 +7,62 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Enoch Sun</copyright>
-        <lastBuildDate>Tue, 28 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ENOCHSHAUI.github.io/categories/web-development/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ENOCHSHAUI.github.io/categories/web-development/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Concert Booking System: Simplifying Ticket Reservations</title>
+        <link>https://ENOCHSHAUI.github.io/p/concert-booking-system-simplifying-ticket-reservations/</link>
+        <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://ENOCHSHAUI.github.io/p/concert-booking-system-simplifying-ticket-reservations/</guid>
+        <description>&lt;img src="https://ENOCHSHAUI.github.io/p/concert-booking-system-simplifying-ticket-reservations/concert-booking-icon.png" alt="Featured image of post Concert Booking System: Simplifying Ticket Reservations" /&gt;&lt;h2 id=&#34;concert-booking-system-simplifying-ticket-reservations-&#34;&gt;Concert Booking System: Simplifying Ticket Reservations 🎟️
+&lt;/h2&gt;&lt;p align=&#34;center&#34;&gt;
+  &lt;img src=&#34;concert-booking-screenshot.png&#34; alt=&#34;Concert Booking System Screenshot&#34; width=&#34;600&#34;&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;project-overview&#34;&gt;Project Overview
+&lt;/h3&gt;&lt;p&gt;The &lt;strong&gt;Concert Booking System&lt;/strong&gt; is a Java-based web service designed to simplify ticket reservations for concerts. Built with scalability and performance in mind, this project showcases my backend development skills, focusing on efficiency and reliability in high-demand scenarios such as concert ticket sales.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;features&#34;&gt;Features
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Concert and Performer Information:&lt;/strong&gt; Users can browse and explore details about concerts, performers, and schedules without logging in.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interactive Seat Map:&lt;/strong&gt; Visualize seat availability in real-time and reserve seats directly through the interface.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Secure Authentication:&lt;/strong&gt; Users can log in with token-based authentication to view and manage their bookings securely.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Double-Booking Prevention:&lt;/strong&gt; Ensures only one user can book a specific seat for a given concert at a time.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Notifications for Sell-Out Events:&lt;/strong&gt; Users can subscribe to updates for concerts nearing full booking capacity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;planned-features&#34;&gt;Planned Features
+&lt;/h3&gt;&lt;p&gt;The current version of the &lt;strong&gt;Concert Booking System&lt;/strong&gt; is fully functional, but I plan to enhance it with the following features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dynamic Ticket Pricing:&lt;/strong&gt; Support for unique ticket prices for each concert.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-Venue Support:&lt;/strong&gt; Manage events across multiple venues with distinct layouts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hold Reservations:&lt;/strong&gt; Allow users to temporarily reserve seats during the checkout process to avoid losing selections.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;project-demonstration&#34;&gt;Project Demonstration
+&lt;/h3&gt;&lt;p&gt;Here’s a short video showcasing the features and functionality of the &lt;strong&gt;Concert Booking System&lt;/strong&gt;:&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;video controls width=&#34;700&#34;&gt;
+    &lt;source src=&#34;concert-booking-demo.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    Your browser does not support the video tag.
+  &lt;/video&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;explore-the-code&#34;&gt;Explore the Code
+&lt;/h3&gt;&lt;p&gt;The full project code, along with resources such as photos and concert information provided by the university, is available as a downloadable ZIP file.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;project-project-36-submission.zip&#34; &gt;👉 Download the Concert Booking System Code (ZIP)&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;why-this-project-matters&#34;&gt;Why This Project Matters
+&lt;/h3&gt;&lt;p&gt;The &lt;strong&gt;Concert Booking System&lt;/strong&gt; highlights my:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Backend Development Expertise:&lt;/strong&gt; Proficiency in designing RESTful APIs, implementing secure authentication, and managing database consistency.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scalability Skills:&lt;/strong&gt; Designing a system capable of handling concurrent users and heavy traffic.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Problem-Solving Abilities:&lt;/strong&gt; Overcoming challenges like double-bookings, real-time seat availability, and efficient seat reservation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Creativity and Collaboration:&lt;/strong&gt; Delivering a well-rounded solution that meets both user needs and technical requirements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you&amp;rsquo;re looking for a developer with a strong technical foundation and a passion for solving real-world challenges, let’s &lt;a class=&#34;link&#34; href=&#34;mailto:sunyike880@gmail.com&#34; &gt;connect&lt;/a&gt;!&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>ReStore: Showcasing My E-Commerce Project</title>
         <link>https://ENOCHSHAUI.github.io/p/restore-showcasing-my-e-commerce-project/</link>
         <pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate>
