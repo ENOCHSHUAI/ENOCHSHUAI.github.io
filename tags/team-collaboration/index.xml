@@ -81,6 +81,15 @@
 &lt;li&gt;Hosted on &lt;strong&gt;AWS&lt;/strong&gt; to handle high registration volumes during peak times.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+&lt;h3 id=&#34;demonstration&#34;&gt;&lt;strong&gt;Demonstration&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;Here’s a short video showcasing the features and functionality of the &lt;strong&gt;Dance Event Application&lt;/strong&gt;:&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;video controls width=&#34;700&#34;&gt;
+    &lt;source src=&#34;dance-avent-application-demo.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    Your browser does not support the video tag.
+  &lt;/video&gt;
+&lt;/p&gt;
+&lt;hr&gt;
 &lt;h3 id=&#34;technologies-used&#34;&gt;&lt;strong&gt;Technologies Used&lt;/strong&gt;
 &lt;/h3&gt;&lt;table&gt;
   &lt;thead&gt;
